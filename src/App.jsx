@@ -67,7 +67,7 @@ function App() {
             when you click it. A tooltip pops in with no transition & almost
             covers the line of text above it, the button grays out and goes dead
             for 2 seconds, and the text never changes. For a studio that values
-            craft, this felt like a small missed opportunity.
+            craft, this feels like a small missed opportunity.
           </p>
         </div>
 
