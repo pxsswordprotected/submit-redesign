@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import JobPostingClone from "./JobPostingClone";
 import JobPostingAfter from "./JobPostingAfter";
