@@ -77,13 +77,21 @@ h6 {
 
 /* Old toast animation (Before panel) */
 @keyframes toast-in-old {
-    from { transform: scale(0.6); }
-    to   { transform: scale(1); }
+    from {
+        transform: scale(0.6);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 @keyframes toast-out-old {
-    from { transform: scale(1); }
-    to   { transform: scale(0.6); }
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.6);
+    }
 }
 
 .toast-copied-old {
@@ -94,3 +102,7 @@ h6 {
     will-change: transform;
 }
 
+::selection {
+    background-color: black;
+    color: white;
+}
